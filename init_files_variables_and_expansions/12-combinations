@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {a..z}{a..z} do [[ $1 != oo]] | echo $1 done | grep -v "oo" | sort
+for i in {a..z}{a..z} | do [[ $1 != oo]] | echo $1 done | grep -v "oo" | sort
